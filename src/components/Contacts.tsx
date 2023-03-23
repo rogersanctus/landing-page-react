@@ -1,3 +1,9 @@
+import WhatsAppLogo from '@public/icons/whatsapp-logo.svg'
+import TelegramLogo from '@public/icons/telegram-logo.svg'
+import EmailIcon from '@public/icons/email-icon.svg'
+import LinkedinLogo from '@public/icons/linkedin-plain.svg'
+import GithubLogo from '@public/icons/github-original.svg'
+
 export function Contacts() {
   return (
     <section
@@ -8,8 +14,8 @@ export function Contacts() {
       <div className="md:flex md:flex-wrap grid grid-cols-2 place-content-stretch md:justify-center mt-12 gap-6">
         <div className="contact-group cursor-pointer flex flex-col items-center">
           <div className="flex text-lime-400 justify-center">
-            {/*PhoenixInlineSvg.Helpers.svg_image(LandingPageWeb.Endpoint, "whatsapp-logo", "icons", className: "colorize icon-size")
-           PhoenixInlineSvg.Helpers.svg_image(LandingPageWeb.Endpoint, "telegram-logo", "icons", className: "colorize icon-size")*/}
+            <WhatsAppLogo className="w-11 h-11 fill-current" />
+            <TelegramLogo className="w-11 h-11 fill-current" />
           </div>
           <span className="text-lime-400 text-sm font-semibold">
             Whatsapp/Telegram
@@ -21,7 +27,7 @@ export function Contacts() {
           href="mailto://rogersanctus@gmail.com"
         >
           <div className="text-lime-400">
-            {/*PhoenixInlineSvg.Helpers.svg_image(LandingPageWeb.Endpoint, "email-icon", "icons", className: "colorize icon-size")*/}
+            <EmailIcon className="w-11 h-11 fill-current" />
           </div>
           <span className="text-lime-400 text-sm font-semibold">e-mail</span>
           <span className="text-white">rogersanctus@gmail.com</span>
@@ -31,7 +37,7 @@ export function Contacts() {
           href="https://www.linkedin.com/in/rog%C3%A9rio-santos-6ba631b9"
         >
           <div className="text-lime-400">
-            {/*PhoenixInlineSvg.Helpers.svg_image(LandingPageWeb.Endpoint, "linkedin-plain", "icons", className: "colorize icon-size")*/}
+            <LinkedinLogo className="w-11 h-11 fill-current" />
           </div>
           <span className="text-lime-400 text-sm font-semibold">Linkedin</span>
         </a>
@@ -40,7 +46,7 @@ export function Contacts() {
           href="https://github.com/rogersanctus"
         >
           <div className="text-lime-400">
-            {/*PhoenixInlineSvg.Helpers.svg_image(LandingPageWeb.Endpoint, "github-original", "icons", className: "colorize icon-size")*/}
+            <GithubLogo className="w-11 h-11 fill-current" />
           </div>
           <span className="text-lime-400 text-sm font-semibold">Github</span>
         </a>
