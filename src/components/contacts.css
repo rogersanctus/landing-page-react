@@ -13,13 +13,3 @@
 .contact-group:hover div + span {
   @apply text-lime-200;
 }
-
-.colorize {
-  fill: currentColor;
-
-}
-
-.icon-size {
-  width: 32px;
-  height: 32px;
-}
