@@ -19,7 +19,7 @@ export function About() {
       <div className="presentation-text flex flex-col gap-4 md:border-l-2 border-l-0 border-l-slate-800/70 md:pl-6 font-josefin-slab font-medium drop-shadow-md">
         <p>
           <span className="text-sky-200  text-4xl">Olá,</span>
-          <span className="text-sky-300  text-xl whitespace-nowrap">
+          <span className="text-sky-300  text-3xl whitespace-nowrap">
             {' '}
             sou Rogério Santos,
           </span>
