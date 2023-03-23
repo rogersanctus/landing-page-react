@@ -15,7 +15,7 @@ export function PageHeader() {
     <>
       <header
         id="top"
-        className="static fitmenu:absolute z-10 w-full fitmenu:px-2 fitmenu:py-4 fitmenu:bg-transparent bg-secondary"
+        className="static fitmenu:absolute fitmenu:z-10 w-full fitmenu:px-2 fitmenu:py-4 fitmenu:bg-transparent bg-secondary fitmenu:border-b-0 border-b border-sky-900"
       >
         <div className="fitmenu:hidden flex items-center">
           <button

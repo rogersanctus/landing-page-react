@@ -7,9 +7,9 @@ import { Skills } from '@/components/Skills'
 
 export default function Home() {
   return (
-    <main className="bg-slate-50 antialiased">
+    <main className="fixed-bg z-0 antialiased">
       <PageHeader />
-      <div className="flex flex-col fixed-bg gap-6 z-0">
+      <div className="flex flex-col gap-6">
         <About />
         <div className="flex flex-col lg:px-0 px-8 gap-12 my-12 items-center">
           <Skills />
