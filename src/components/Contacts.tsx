@@ -2,7 +2,7 @@ export function Contacts() {
   return (
     <section
       id="contact"
-      className="bg-secondary bg-opacity-70 backdrop-blur-sm pt-16 pb-20 px-6 text-white text-center"
+      className="bg-secondary bg-opacity-70 border-t border-zinc-500/80 backdrop-blur-xs pt-16 pb-20 px-6 text-white text-center"
     >
       <span className="text-2xl uppercase font-bold">Contato</span>
       <div className="md:flex md:flex-wrap grid grid-cols-2 place-content-stretch md:justify-center mt-12 gap-6">
