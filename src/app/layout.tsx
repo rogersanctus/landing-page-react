@@ -1,5 +1,6 @@
 import './globals.css'
 import { Sono, Inter, Josefin_Slab, Poppins } from 'next/font/google'
+import { MenuContextWrapper } from './MenuContextWrapper'
 
 export const metadata = {
   title: 'Create Next App',
@@ -41,7 +42,9 @@ export default function RootLayout({
       lang="en"
       className={`${sono.variable} ${inter.variable} ${josefinSlab.variable} ${poppins.variable}`}
     >
-      <body>{children}</body>
+      <body>
+        <MenuContextWrapper>{children}</MenuContextWrapper>
+      </body>
     </html>
   )
 }

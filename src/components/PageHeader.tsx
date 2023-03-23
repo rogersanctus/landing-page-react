@@ -1,4 +1,16 @@
+'use client'
+
+import { useMenuStore } from '@/app/MenuContextWrapper'
+
 export function PageHeader() {
+  const { state, dispatch } = useMenuStore()
+
+  function onToggleMenu() {
+    const newIsMenuOpen = !state.isOpen
+    dispatch({ type: 'toggle', payload: newIsMenuOpen })
+    dispatch({ type: 'store' })
+  }
+
   return (
     <>
       <header
@@ -7,8 +19,8 @@ export function PageHeader() {
       >
         <div className="fitmenu:hidden flex items-center">
           <button
-            id="mobile-menu-button"
             className="flex items-center outline-none m-2 hover:text-accent text-white"
+            onClick={onToggleMenu}
           >
             <svg
               className="w-8 h-8"
@@ -26,7 +38,11 @@ export function PageHeader() {
           </button>
         </div>
         <nav className="flex justify-center">
-          <ul className="flex fitmenu:flex-row flex-col gap-1 fitmenu:gap-8 nav-menu cursor-pointer fitmenu:w-auto w-full fitmenu:pb-0 pb-12">
+          <ul
+            className={`${
+              state.isOpen ? '' : 'hidden'
+            } flex fitmenu:flex-row flex-col gap-1 fitmenu:gap-8 nav-menu cursor-pointer fitmenu:w-auto w-full fitmenu:pb-0 pb-4`}
+          >
             <li className="text-white text-md fitmenu:text-lime-500 font-semibold fitmenu:text-2xl uppercase">
               <a
                 href="#about_me"
