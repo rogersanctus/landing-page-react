@@ -32,6 +32,8 @@ export function Stacks() {
             <SkillItem url="/icons/nuxt.svg" name="Nuxt" />
             <SkillItem url="/icons/vite-logo.svg" name="Vite" />
             <SkillItem url="/icons/vuejs-original.svg" name="Vue Router" />
+            <SkillItem url="/icons/vuejs-original.svg" name="Vuex" />
+            <SkillItem url="/icons/pinia-logo.svg" name="Pinia" />
             <SkillItem url="/icons/vuetify-original.svg" name="Vuetify" />
             <SkillItem url="/icons/quasar-logo.svg" name="Quasar" />
             <SkillItem url="/icons/bootstrap-vue.svg" name="Bootstrap Vue" />
@@ -42,12 +44,14 @@ export function Stacks() {
           <span className="textl-xl text-orange font-semibold">React</span>
           <ul className="flex flex-wrap mt-4 gap-4">
             <SkillItem url="/icons/nextjs-original.svg" name="Next" />
+            <SkillItem url="/icons/vite-logo.svg" name="Vite" />
             <SkillItem
               url="/icons/react-router-mark-color.svg"
               name="React Router"
             />
             <SkillItem url="/icons/react-original.svg" name="React Hooks" />
             <SkillItem url="/icons/zustand-logo.png" name="Zustand" />
+            <SkillItem url="/icons/redux-logo.svg" name="Redux" />
             <SkillItem url="/icons/bootstrap-original.svg" name="Bootstrap" />
             <SkillItem url="/icons/zod-logo.svg" name="Zod" />
           </ul>
