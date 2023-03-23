@@ -1,5 +1,5 @@
 /* eslint-disable-next-line */
-const { FIT_MENU } = require('./consts')
+const { FIT_MENU } = require('./src/consts')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
