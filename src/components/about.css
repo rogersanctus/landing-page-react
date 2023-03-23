@@ -1,3 +1,7 @@
+#about_me {
+  box-shadow: 0 22px 20px -15px rgb(0 0 0 / 30%)
+}
+
 .me {
   display: grid;
   margin: 0;
@@ -40,9 +44,5 @@
 }
 
 .about-gradient {
-  background-image: linear-gradient(to bottom, theme("colors.slate.600/50%"), theme("colors.slate.900/50%"));
-}
-
-.presentation-text {
-  font-family: var(--inter-font);
+  background-image: linear-gradient(to bottom, theme("colors.zinc.200"), theme("colors.zinc.100"), theme("colors.slate.200"), theme("colors.slate.200"));
 }

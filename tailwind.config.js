@@ -10,7 +10,8 @@ module.exports = {
         sono: ['var(--sono-font)'],
         inter: ['var(--inter-font)'],
         poppins: ['var(--poppins-font)'],
-        'josefin-slab': ['var(--josefin-slab-font)']
+        'josefin-slab': ['var(--josefin-slab-font)'],
+        'maven-pro': ['var(--maven-pro-font)']
       },
       colors: {
         primary: '#55dde0',

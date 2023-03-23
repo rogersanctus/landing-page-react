@@ -15,7 +15,7 @@ export function PageHeader() {
     <>
       <header
         id="top"
-        className="static fitmenu:absolute fitmenu:z-10 w-full fitmenu:px-2 fitmenu:py-4 fitmenu:bg-transparent bg-secondary fitmenu:border-b-0 border-b border-sky-900"
+        className="static fitmenu:absolute w-full fitmenu:px-2 fitmenu:py-4 fitmenu:bg-transparent bg-secondary fitmenu:border-b-0 border-b border-sky-900"
       >
         <div className="fitmenu:hidden flex items-center">
           <button
@@ -41,9 +41,9 @@ export function PageHeader() {
           <ul
             className={`${
               state.isOpen ? '' : 'hidden'
-            } flex fitmenu:flex-row flex-col gap-1 fitmenu:gap-8 nav-menu cursor-pointer fitmenu:w-auto w-full fitmenu:pb-0 pb-4`}
+            } flex fitmenu:flex-row flex-col gap-1 fitmenu:gap-8 text-white fitmenu:text-cyan-600 nav-menu cursor-pointer fitmenu:w-auto w-full fitmenu:pb-0 pb-4`}
           >
-            <li className="text-white text-md fitmenu:text-lime-500 font-semibold fitmenu:text-2xl uppercase">
+            <li className="text-md font-semibold fitmenu:text-2xl uppercase">
               <a
                 href="#about_me"
                 className="flex flex-col items-center fitmenu:static relative"
@@ -51,10 +51,10 @@ export function PageHeader() {
                 <span className="fitmenu:z-auto z-10 whitespace-nowrap fitmenu:p-0 p-2">
                   Sobre mim
                 </span>
-                <div className="fitmenu:static absolute w-full h-full fitmenu:w-0 fitmenu:h-[12px] fitmenu:mt-2 fitmenu:bg-lime-500 bg-stone-800" />
+                <div className="fitmenu:static absolute w-full h-full fitmenu:w-0 fitmenu:h-[12px] fitmenu:mt-2 fitmenu:bg-cyan-600 bg-stone-800" />
               </a>
             </li>
-            <li className="text-white text-md fitmenu:text-lime-500 font-semibold fitmenu:text-2xl uppercase">
+            <li className="text-md font-semibold fitmenu:text-2xl uppercase">
               <a
                 href="#skills"
                 className="flex flex-col items-center fitmenu:static relative"
@@ -62,10 +62,10 @@ export function PageHeader() {
                 <span className="fitmenu:z-auto z-10 whitespace-nowrap fitmenu:p-0 p-2">
                   Habilidades
                 </span>
-                <div className="fitmenu:static absolute w-full h-full fitmenu:w-0 fitmenu:h-[12px] fitmenu:mt-2 fitmenu:bg-lime-500 bg-stone-800" />
+                <div className="fitmenu:static absolute w-full h-full fitmenu:w-0 fitmenu:h-[12px] fitmenu:mt-2 fitmenu:bg-cyan-600 bg-stone-800" />
               </a>
             </li>
-            <li className="text-white text-md fitmenu:text-lime-500 font-semibold fitmenu:text-2xl uppercase">
+            <li className="text-md font-semibold fitmenu:text-2xl uppercase">
               <a
                 href="#about_jobs"
                 className="flex flex-col items-center fitmenu:static relative"
@@ -73,10 +73,10 @@ export function PageHeader() {
                 <span className="fitmenu:z-auto z-10 whitespace-nowrap fitmenu:p-0 p-2">
                   No que trabalho
                 </span>
-                <div className="fitmenu:static absolute w-full h-full fitmenu:w-0 fitmenu:h-[12px] fitmenu:mt-2 fitmenu:bg-lime-500 bg-stone-800" />
+                <div className="fitmenu:static absolute w-full h-full fitmenu:w-0 fitmenu:h-[12px] fitmenu:mt-2 fitmenu:bg-cyan-600 bg-stone-800" />
               </a>
             </li>
-            <li className="text-white text-md fitmenu:text-lime-500 font-semibold fitmenu:text-2xl uppercase">
+            <li className="text-md font-semibold fitmenu:text-2xl uppercase">
               <a
                 href="#portfolio"
                 className="flex flex-col items-center fitmenu:static relative"
@@ -84,10 +84,10 @@ export function PageHeader() {
                 <span className="fitmenu:z-auto z-10 whitespace-nowrap fitmenu:p-0 p-2">
                   Portfólio
                 </span>
-                <div className="fitmenu:static absolute w-full h-full fitmenu:w-0 fitmenu:h-[12px] fitmenu:mt-2 fitmenu:bg-lime-500 bg-stone-800" />
+                <div className="fitmenu:static absolute w-full h-full fitmenu:w-0 fitmenu:h-[12px] fitmenu:mt-2 fitmenu:bg-cyan-600 bg-stone-800" />
               </a>
             </li>
-            <li className="text-white text-md fitmenu:text-lime-500 font-semibold fitmenu:text-2xl uppercase">
+            <li className="text-md font-semibold fitmenu:text-2xl uppercase">
               <a
                 href="#contact"
                 className="flex flex-col items-center fitmenu:static relative"
@@ -95,7 +95,7 @@ export function PageHeader() {
                 <span className="fitmenu:z-auto z-10 whitespace-nowrap fitmenu:p-0 p-2">
                   Contato
                 </span>
-                <div className="fitmenu:static absolute w-full h-full fitmenu:w-0 fitmenu:h-[12px] fitmenu:mt-2 fitmenu:bg-lime-500 bg-stone-800" />
+                <div className="fitmenu:static absolute w-full h-full fitmenu:w-0 fitmenu:h-[12px] fitmenu:mt-2 fitmenu:bg-cyan-600 bg-stone-800" />
               </a>
             </li>
           </ul>

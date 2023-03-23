@@ -1,5 +1,5 @@
 import './globals.css'
-import { Sono, Inter, Josefin_Slab, Poppins } from 'next/font/google'
+import { Sono, Inter, Josefin_Slab, Poppins, Maven_Pro } from 'next/font/google'
 import { MenuContextWrapper } from './MenuContextWrapper'
 
 export const metadata = {
@@ -32,6 +32,11 @@ const poppins = Poppins({
   display: 'swap'
 })
 
+const mavenPro = Maven_Pro({
+  subsets: ['latin'],
+  variable: '--maven-pro-font'
+})
+
 export default function RootLayout({
   children
 }: {
@@ -40,9 +45,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${sono.variable} ${inter.variable} ${josefinSlab.variable} ${poppins.variable}`}
+      className={`${mavenPro.variable} ${sono.variable} ${inter.variable} ${josefinSlab.variable} ${poppins.variable}`}
     >
-      <body>
+      <body className="antialiased bg-slate-50">
         <MenuContextWrapper>{children}</MenuContextWrapper>
       </body>
     </html>
