@@ -10,7 +10,7 @@ export function Contacts() {
       id="contact"
       className="bg-secondary border-t border-sky-400 pt-16 pb-20 px-6 text-white text-center"
     >
-      <span className="text-2xl uppercase font-bold">Contato</span>
+      <span className="text-2xl uppercase font-bold drop-shadow">Contato</span>
       <div className="md:flex md:flex-wrap grid grid-cols-2 place-content-stretch md:justify-center mt-12 gap-6">
         <div className="contact-group cursor-pointer flex flex-col items-center">
           <div className="flex text-lime-400 justify-center">
@@ -25,6 +25,8 @@ export function Contacts() {
         <a
           className="contact-group flex flex-col items-center"
           href="mailto://rogersanctus@gmail.com"
+          rel="external nofollow noreferrer"
+          target="blank"
         >
           <div className="text-lime-400">
             <EmailIcon className="w-11 h-11 fill-current" />
@@ -35,6 +37,8 @@ export function Contacts() {
         <a
           className="contact-group flex flex-col items-center"
           href="https://www.linkedin.com/in/rog%C3%A9rio-santos-6ba631b9"
+          rel="external nofollow noreferrer"
+          target="blank"
         >
           <div className="text-lime-400">
             <LinkedinLogo className="w-11 h-11 fill-current" />
@@ -44,6 +48,8 @@ export function Contacts() {
         <a
           className="contact-group flex flex-col items-center"
           href="https://github.com/rogersanctus"
+          rel="external nofollow noreferrer"
+          target="blank"
         >
           <div className="text-lime-400">
             <GithubLogo className="w-11 h-11 fill-current" />
