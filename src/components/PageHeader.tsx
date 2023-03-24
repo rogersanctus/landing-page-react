@@ -1,6 +1,7 @@
 'use client'
 
 import { useMenuStore } from '@/app/MenuContextWrapper'
+import ArrowUp from '@public/icons/arrow-up.svg'
 
 export function PageHeader() {
   const { state, dispatch } = useMenuStore()
@@ -102,8 +103,8 @@ export function PageHeader() {
         </nav>
       </header>
       <div className="absolute z-20">
-        <a href="#top" className="fixed bottom-4 right-4" title="go to the top">
-          <span className="hero-arrow-up-circle-solid text-lime-500 w-12 h-12" />
+        <a href="#top" className="fixed bottom-4 right-4" title="Go to the top">
+          <ArrowUp className="fill-current text-lime-500 hover:text-lime-300 w-12 h-12 drop-shadow" />
         </a>
       </div>
     </>
