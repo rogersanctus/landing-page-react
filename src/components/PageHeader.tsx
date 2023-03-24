@@ -104,7 +104,7 @@ export function PageHeader() {
       </header>
       <div className="absolute z-20">
         <a href="#top" className="fixed bottom-4 right-4" title="Go to the top">
-          <ArrowUp className="fill-current text-lime-500 hover:text-lime-300 w-12 h-12 drop-shadow" />
+          <ArrowUp className="fill-current text-lime-500 hover:text-lime-400 w-12 h-12 drop-shadow" />
         </a>
       </div>
     </>
