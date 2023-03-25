@@ -7,11 +7,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sono: ['var(--sono-font)'],
-        inter: ['var(--inter-font)'],
+        sans: ['var(--sono-font)'],
+        //sono: ['var(--sono-font)'],
         poppins: ['var(--poppins-font)'],
-        'josefin-slab': ['var(--josefin-slab-font)'],
-        'maven-pro': ['var(--maven-pro-font)']
+        'josefin-slab': ['var(--josefin-slab-font)']
       },
       colors: {
         primary: '#55dde0',
