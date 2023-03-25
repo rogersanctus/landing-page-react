@@ -5,9 +5,10 @@ export function AboutJobs() {
       className="bg-surface p-6 rounded-xl w-full lg:w-4/6"
     >
       <span className="text-3xl font-semibold uppercase text-secondary drop-shadow-sm">
-        Quais aplicações desenvolvo
+        Que tipo de aplicações desenvolvo
       </span>
       <ul className="list-inside list-disc mt-4 font-medium text-xl text-black font-poppins">
+        <li className="cursor-pointer">Aplicações SSR</li>
         <li className="cursor-pointer">Aplicações SPA</li>
         <li className="cursor-pointer">Aplicações PWA</li>
         <li className="cursor-pointer">Landing Pages</li>
