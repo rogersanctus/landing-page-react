@@ -1,10 +1,20 @@
 import './globals.css'
 import { Sono, Josefin_Slab, Poppins } from 'next/font/google'
 import { MenuContextWrapper } from './MenuContextWrapper'
+import { Metadata } from 'next'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Rogério Santos • Desenvolvedor Front-end',
-  description: 'Desenvolvedor Front-end'
+  description: 'Desenvolvedor Front-end',
+  applicationName: 'Front-end developer portfolio',
+  authors: { name: 'Rogério Santos' },
+  keywords: [
+    'front-end',
+    'developer',
+    'web applications',
+    'portfolio',
+    'freelancer'
+  ]
 }
 
 const sono = Sono({
