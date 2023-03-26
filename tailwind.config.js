@@ -33,7 +33,8 @@ module.exports = {
         othergreen: '#A9C491'
       },
       screens: {
-        fitmenu: `${FIT_MENU}px`
+        fitmenu: `${FIT_MENU}px`,
+        xxs: '400px'
       }
     }
   },
