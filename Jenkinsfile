@@ -6,9 +6,20 @@ pipeline {
   }
 
   stages {
+    stage ('Cleanup docker system') {
+      steps {
+        sh 'docker system prune -a -f --volumes'
+      }
+    }
+    stage ('Build the fallback page') {
+      steps {
+        echo 'Building the fallback page...'
+        sh 'docker compose create landing-page-fallback --build --force-recreate'
+      }
+    }
     stage ('Stop previously running app') {
       steps {
-        echo 'Stopping server...'
+        echo 'Stopping the app server...'
         script {
           try {
             sh 'docker compose stop landing-page-app'
@@ -18,9 +29,20 @@ pipeline {
         }
       }
     }
+    stage ('Run the fallback page') {
+      steps {
+        echo 'Running the fallback server...'
+        sh 'docker compose start landing-page-fallback'
+      }
+    }
     stage ('Build the app') {
       steps {
         sh 'docker compose create landing-page-app --build --force-recreate'
+      }
+    }
+    stage ('Stop the fallback page') {
+      steps {
+        sh 'docker compose stop landing-page-fallback'
       }
     }
     stage ('Run the app') {
