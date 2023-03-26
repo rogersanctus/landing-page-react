@@ -6,3 +6,8 @@ services:
     build: .
     ports:
       - 3000:3000
+  landing-page-fallback:
+    image: landing-page-fallback
+    build: fallback-page
+    ports:
+      - 3001:3000
