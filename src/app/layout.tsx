@@ -9,11 +9,25 @@ export const metadata: Metadata = {
   applicationName: 'Front-end developer portfolio',
   authors: { name: 'Rogério Santos' },
   keywords: [
-    'front-end',
+    'desenvolvedor',
     'developer',
+    'desenvolvimento',
+    'programador',
+    'engenheiro de software',
+    'software engineer',
+    'front-end',
+    'frontend',
+    'web',
     'web applications',
+    'web app',
+    'aplicação web',
+    'website',
+    'sites',
     'portfolio',
-    'freelancer'
+    'portfólio',
+    'freelancer',
+    'freela',
+    'rogério santos'
   ]
 }
 
