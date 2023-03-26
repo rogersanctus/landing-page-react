@@ -77,7 +77,7 @@ export function PageHeader() {
                 <div className="fitmenu:static absolute w-full h-full fitmenu:w-0 fitmenu:h-[12px] fitmenu:mt-2 fitmenu:bg-cyan-600 bg-stone-800" />
               </a>
             </li>
-            <li className="text-md font-semibold fitmenu:text-2xl uppercase">
+            {/*<li className="text-md font-semibold fitmenu:text-2xl uppercase">
               <a
                 href="#portfolio"
                 className="flex flex-col items-center fitmenu:static relative"
@@ -87,7 +87,7 @@ export function PageHeader() {
                 </span>
                 <div className="fitmenu:static absolute w-full h-full fitmenu:w-0 fitmenu:h-[12px] fitmenu:mt-2 fitmenu:bg-cyan-600 bg-stone-800" />
               </a>
-            </li>
+            </li>*/}
             <li className="text-md font-semibold fitmenu:text-2xl uppercase">
               <a
                 href="#contact"
