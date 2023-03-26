@@ -5,10 +5,10 @@ export default function Home() {
         <section className="p-8">
           <div className="flex flex-col">
             <p className="sm:text-3xl text-xl font-bold text-slate-800">
-              Sinto muito. No momento esta página está sendo atualizada.
+              Sinto muito. No momento esta página está em manutenção.
             </p>
             <p className="sm:text-4xl text-2xl font-semibold mt-4 text-amber-600">
-              Em breve estaremos de volta!
+              Em alguns minutos estaremos de volta!
             </p>
           </div>
         </section>
