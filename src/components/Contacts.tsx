@@ -11,13 +11,13 @@ export function Contacts() {
       className="bg-secondary border-t border-sky-400 pt-16 pb-20 px-6 text-white text-center"
     >
       <span className="text-2xl uppercase font-bold drop-shadow">Contato</span>
-      <div className="md:flex md:flex-wrap grid grid-cols-2 place-content-stretch md:justify-center mt-12 gap-6">
+      <div className="md:flex md:flex-wrap grid xxs:grid-cols-2 grid-cols-1 text-xs place-content-stretch md:justify-center mt-12 gap-6">
         <div className="contact-group cursor-pointer flex flex-col items-center">
           <div className="flex text-lime-400 justify-center">
             <WhatsAppLogo className="w-11 h-11 fill-current" />
             <TelegramLogo className="w-11 h-11 fill-current" />
           </div>
-          <span className="text-lime-400 text-sm font-semibold">
+          <span className="text-lime-400 md:text-sm text-xs font-semibold">
             Whatsapp/Telegram
           </span>
           <span className="text-white">(74) 98827-0231</span>
@@ -31,7 +31,9 @@ export function Contacts() {
           <div className="text-lime-400">
             <EmailIcon className="w-11 h-11 fill-current" />
           </div>
-          <span className="text-lime-400 text-sm font-semibold">e-mail</span>
+          <span className="text-lime-400 md:text-sm text-xs font-semibold">
+            e-mail
+          </span>
           <span className="text-white">rogersanctus@gmail.com</span>
         </a>
         <a
@@ -43,7 +45,9 @@ export function Contacts() {
           <div className="text-lime-400">
             <LinkedinLogo className="w-11 h-11 fill-current" />
           </div>
-          <span className="text-lime-400 text-sm font-semibold">Linkedin</span>
+          <span className="text-lime-400 md:text-sm text-xs font-semibold">
+            Linkedin
+          </span>
         </a>
         <a
           className="contact-group flex flex-col items-center"
@@ -54,7 +58,9 @@ export function Contacts() {
           <div className="text-lime-400">
             <GithubLogo className="w-11 h-11 fill-current" />
           </div>
-          <span className="text-lime-400 text-sm font-semibold">Github</span>
+          <span className="text-lime-400 md:text-sm text-xs font-semibold">
+            Github
+          </span>
         </a>
       </div>
     </section>

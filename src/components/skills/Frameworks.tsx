@@ -3,7 +3,7 @@ import { SkillItem } from './SkillItem'
 export function Frameworks() {
   return (
     <div className="">
-      <span className="text-2xl text-accent font-bold border-b-2 border-b-accent">
+      <span className="xxs:text-2xl text-lg text-accent font-bold border-b-2 border-b-accent">
         Frameworks
       </span>
       <ul className="flex flex-wrap text-xl mt-4 gap-4">

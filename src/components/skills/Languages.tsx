@@ -3,7 +3,7 @@ import { SkillItem } from './SkillItem'
 export function Languages() {
   return (
     <div className="">
-      <span className="text-2xl text-accent font-bold border-b-2 border-b-accent p-1">
+      <span className="xxs:text-2xl text-lg text-accent font-bold border-b-2 border-b-accent p-1">
         Linguagens
       </span>
       <ul className="flex flex-wrap text-xl mt-4 gap-4">

@@ -9,14 +9,14 @@ export function SkillItem({ url, name }: SkillItemProps) {
   return (
     <li className="flex flex-col items-center">
       <Image
-        className="w-20 h-20"
+        className="xxs:w-20 xxs:h-20 w-14 h-14"
         src={url}
         alt={`${name} logo`}
         quality={100}
         width={80}
         height={80}
       />
-      <span className="text-sm font-semibold">{name}</span>
+      <span className="xxs:text-sm text-xs font-semibold">{name}</span>
     </li>
   )
 }

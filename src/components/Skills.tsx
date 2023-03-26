@@ -5,8 +5,11 @@ import { Tools } from './skills/Tools'
 
 export function Skills() {
   return (
-    <section id="skills" className="rounded-2xl bg-surface p-6 w-full lg:w-4/6">
-      <span className="text-3xl text-secondary font-semibold uppercase">
+    <section
+      id="skills"
+      className="xxs:rounded-2xl rounded-none xxs:border-0 border-y border-stone-300 bg-surface p-6 w-full lg:w-4/6"
+    >
+      <span className="xxs:text-3xl text-xl text-secondary font-semibold uppercase">
         Minhas Habilidades
       </span>
       <ul className="flex flex-col gap-6 mt-4">

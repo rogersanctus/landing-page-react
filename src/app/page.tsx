@@ -11,7 +11,7 @@ export default function Home() {
       <PageHeader />
       <div className="flex flex-col gap-6">
         <About />
-        <div className="flex flex-col lg:px-0 px-8 gap-12 my-12 items-center">
+        <div className="flex flex-col lg:px-0 xxs:px-8 px-0 gap-12 my-12 items-center">
           <Skills />
           <AboutJobs />
           <Portfolio />

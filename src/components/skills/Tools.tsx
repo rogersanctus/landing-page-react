@@ -3,7 +3,7 @@ import { SkillItem } from './SkillItem'
 export function Tools() {
   return (
     <div className="mt-4">
-      <span className="text-2xl text-accent font-bold border-b-2 border-b-accent">
+      <span className="xxs:text-2xl text-lg text-accent font-bold border-b-2 border-b-accent">
         Ferramentas
       </span>
       <ul className="flex flex-wrap mt-4 gap-4">
