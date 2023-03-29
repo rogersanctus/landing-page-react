@@ -24,7 +24,7 @@ export function Contacts() {
         </div>
         <a
           className="contact-group flex flex-col items-center"
-          href="mailto://rogersanctus@gmail.com"
+          href="mailto://contato@supra-dev.com"
           rel="external nofollow noreferrer"
           target="blank"
         >
