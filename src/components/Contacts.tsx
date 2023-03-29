@@ -38,7 +38,7 @@ export function Contacts() {
         </a>
         <a
           className="contact-group flex flex-col items-center"
-          href="https://www.linkedin.com/in/rog%C3%A9rio-santos-6ba631b9"
+          href="https://www.linkedin.com/in/rogersanctus"
           rel="external nofollow noreferrer"
           target="blank"
         >
