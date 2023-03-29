@@ -34,7 +34,7 @@ export function Contacts() {
           <span className="text-lime-400 md:text-sm text-xs font-semibold">
             e-mail
           </span>
-          <span className="text-white">rogersanctus@gmail.com</span>
+          <span className="text-white">contato@supra-dev.com</span>
         </a>
         <a
           className="contact-group flex flex-col items-center"
