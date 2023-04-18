@@ -60,7 +60,7 @@ export default function RootLayout({
 }) {
   return (
     <html
-      lang="en"
+      lang="pt-BR"
       className={`${sono.variable} ${josefinSlab.variable} ${poppins.variable}`}
     >
       <body className="antialiased bg-slate-50">
