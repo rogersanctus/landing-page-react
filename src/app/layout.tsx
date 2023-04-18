@@ -5,7 +5,8 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Rogério Santos • Desenvolvedor Front-end',
-  description: 'Desenvolvedor Front-end',
+  description:
+    'Desenvolvedor Front-end com vasta experiência em projetos e aplicações variadas. Como Web Apps SPA (Single Page Applications), aplicações SSR (Server Side Rendenring). Atuo como prestador de serviços e freelancer.',
   applicationName: 'Front-end developer portfolio',
   authors: { name: 'Rogério Santos' },
   keywords: [
