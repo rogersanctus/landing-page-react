@@ -63,7 +63,11 @@ export default function RootLayout({
       lang="pt-BR"
       className={`${sono.variable} ${josefinSlab.variable} ${poppins.variable}`}
     >
-      <body className="antialiased bg-slate-50">
+      <body
+        className="antialiased bg-slate-50"
+        itemScope
+        itemType="https://schema.org/WebPage"
+      >
         <MenuContextWrapper>{children}</MenuContextWrapper>
       </body>
       <Script

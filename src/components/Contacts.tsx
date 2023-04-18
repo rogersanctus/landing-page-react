@@ -9,6 +9,8 @@ export function Contacts() {
     <section
       id="contact"
       className="bg-secondary border-t border-sky-400 pt-16 pb-20 px-6 text-white text-center"
+      itemScope
+      itemType="https://schema.org/Person"
     >
       <h2 className="text-2xl uppercase font-bold drop-shadow">Contato</h2>
       <div className="md:flex md:flex-wrap grid xxs:grid-cols-2 grid-cols-1 text-xs place-content-stretch md:justify-center mt-12 gap-6">
@@ -20,13 +22,16 @@ export function Contacts() {
           <span className="text-lime-400 md:text-sm text-xs font-semibold">
             Whatsapp/Telegram
           </span>
-          <span className="text-white">(74) 98827-0231</span>
+          <span className="text-white" itemProp="telephone">
+            (74) 98827-0231
+          </span>
         </div>
         <a
           className="contact-group flex flex-col items-center"
           href="mailto://contato@supra-dev.com"
           rel="external nofollow noreferrer"
           target="blank"
+          itemProp="email"
         >
           <div className="text-lime-400">
             <EmailIcon className="w-11 h-11 fill-current" />
@@ -34,7 +39,9 @@ export function Contacts() {
           <span className="text-lime-400 md:text-sm text-xs font-semibold">
             e-mail
           </span>
-          <span className="text-white">contato@supra-dev.com</span>
+          <span className="text-white" itemProp="email">
+            contato@supra-dev.com
+          </span>
         </a>
         <a
           className="contact-group flex flex-col items-center"
