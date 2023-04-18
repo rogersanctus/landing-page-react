@@ -25,7 +25,6 @@ export function PageHeader() {
           >
             <svg
               className="w-8 h-8"
-              x-show="!showMenu"
               fill="none"
               strokeLinecap="round"
               strokeLinejoin="round"
