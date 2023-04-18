@@ -2,6 +2,7 @@ import './globals.css'
 import { Sono, Josefin_Slab, Poppins } from 'next/font/google'
 import { MenuContextWrapper } from './MenuContextWrapper'
 import { Metadata } from 'next'
+import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: 'Rogério Santos • Desenvolvedor Front-end',
@@ -65,6 +66,19 @@ export default function RootLayout({
       <body className="antialiased bg-slate-50">
         <MenuContextWrapper>{children}</MenuContextWrapper>
       </body>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-BFGEZG5DT9"
+        strategy="afterInteractive"
+      />
+      <Script id="gtag" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-BFGEZG5DT9');
+      `}
+      </Script>
     </html>
   )
 }
