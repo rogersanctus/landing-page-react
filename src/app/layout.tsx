@@ -29,7 +29,8 @@ export const metadata: Metadata = {
     'freelancer',
     'freela',
     'rogério santos'
-  ]
+  ],
+  robots: { index: true, follow: false }
 }
 
 const sono = Sono({
