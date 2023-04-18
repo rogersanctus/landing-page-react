@@ -17,14 +17,14 @@ export function About() {
         />
       </div>
       <div className="presentation-text flex flex-col gap-4 md:border-l-2 border-l-0 border-l-zinc-300 md:pl-6 font-josefin-slab font-medium">
-        <p>
+        <h1>
           <span className="text-stone-500 font-bold text-4xl">Olá,</span>
           <span className="text-stone-600 font-semibold text-3xl whitespace-nowrap">
             {' '}
             sou Rogério Santos,
           </span>
-        </p>
-        <div className="flex flex-col lg:flex-row lg:justify-items-stretch lg:items-baseline gap-4 text-2xl font-medium drop-shadow-sm">
+        </h1>
+        <article className="flex flex-col lg:flex-row lg:justify-items-stretch lg:items-baseline gap-4 text-2xl font-medium drop-shadow-sm">
           <p className="lg:w-1/3 text-zinc-800">
             <span className="break-words">
               <span className="text-3xl">d</span>esenvolvedor há mais de dez
@@ -47,7 +47,7 @@ export function About() {
             melhorias com boas práticas de códigos reaproveitáveis e
             readaptáveis.
           </p>
-        </div>
+        </article>
       </div>
     </section>
   )

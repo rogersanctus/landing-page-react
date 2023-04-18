@@ -9,9 +9,9 @@ export function Skills() {
       id="skills"
       className="xxs:rounded-2xl rounded-none xxs:border-0 border-y border-stone-300 bg-surface p-6 w-full lg:w-4/6"
     >
-      <span className="xxs:text-3xl text-xl text-secondary font-semibold uppercase">
+      <h2 className="xxs:text-3xl text-xl text-secondary font-semibold uppercase">
         Minhas Habilidades
-      </span>
+      </h2>
       <ul className="flex flex-col gap-6 mt-4">
         <li>
           <Languages />

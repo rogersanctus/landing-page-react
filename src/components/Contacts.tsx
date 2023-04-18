@@ -10,7 +10,7 @@ export function Contacts() {
       id="contact"
       className="bg-secondary border-t border-sky-400 pt-16 pb-20 px-6 text-white text-center"
     >
-      <span className="text-2xl uppercase font-bold drop-shadow">Contato</span>
+      <h2 className="text-2xl uppercase font-bold drop-shadow">Contato</h2>
       <div className="md:flex md:flex-wrap grid xxs:grid-cols-2 grid-cols-1 text-xs place-content-stretch md:justify-center mt-12 gap-6">
         <div className="contact-group cursor-pointer flex flex-col items-center">
           <div className="flex text-lime-400 justify-center">

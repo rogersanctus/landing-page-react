@@ -2,10 +2,10 @@ import { SkillItem } from './SkillItem'
 
 export function Languages() {
   return (
-    <div className="">
-      <span className="xxs:text-2xl text-lg text-accent font-bold border-b-2 border-b-accent p-1">
+    <article className="">
+      <h3 className="xxs:text-2xl text-lg text-accent font-bold border-b-2 border-b-accent p-1">
         Linguagens
-      </span>
+      </h3>
       <ul className="flex flex-wrap text-xl mt-4 gap-4">
         <SkillItem url="/icons/javascript-original.svg" name="Javascript" />
         <SkillItem url="/icons/typescript-original.svg" name="Typescript" />
@@ -16,6 +16,6 @@ export function Languages() {
         <SkillItem url="/icons/cplusplus-original.svg" name="C/C++" />
         <SkillItem url="/icons/lua-original.svg" name="Lua" />
       </ul>
-    </div>
+    </article>
   )
 }

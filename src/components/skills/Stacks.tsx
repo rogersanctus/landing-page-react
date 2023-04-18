@@ -2,15 +2,15 @@ import { SkillItem } from './SkillItem'
 
 export function Stacks() {
   return (
-    <div className="">
-      <span className="xxs:text-2xl text-lg text-accent font-bold border-b-2 border-b-accent">
+    <article className="">
+      <h3 className="xxs:text-2xl text-lg text-accent font-bold border-b-2 border-b-accent">
         Stacks Frontend
-      </span>
+      </h3>
       <ul>
         <li className="mt-8">
-          <span className="xxs:text-xl text-md text-orange font-semibold">
+          <h4 className="xxs:text-xl text-md text-orange font-semibold">
             Uso Geral
-          </span>
+          </h4>
           <ul className="flex flex-wrap mt-4 gap-4">
             <SkillItem url="/icons/html5-original.svg" name="HTML 5" />
             <SkillItem url="/icons/css3-original.svg" name="CSS 3" />
@@ -29,9 +29,9 @@ export function Stacks() {
           </ul>
         </li>
         <li className="mt-8">
-          <span className="xxs:text-xl text-md text-orange font-semibold">
+          <h4 className="xxs:text-xl text-md text-orange font-semibold">
             VueJS
-          </span>
+          </h4>
           <ul className="flex flex-wrap mt-4 gap-4">
             <SkillItem url="/icons/nuxt.svg" name="Nuxt" />
             <SkillItem url="/icons/vite-logo.svg" name="Vite" />
@@ -45,9 +45,9 @@ export function Stacks() {
           </ul>
         </li>
         <li className="mt-8">
-          <span className="xxs:text-xl text-md text-orange font-semibold">
+          <h4 className="xxs:text-xl text-md text-orange font-semibold">
             React
-          </span>
+          </h4>
           <ul className="flex flex-wrap mt-4 gap-4">
             <SkillItem url="/icons/nextjs-original.svg" name="Next" />
             <SkillItem url="/icons/vite-logo.svg" name="Vite" />
@@ -63,6 +63,6 @@ export function Stacks() {
           </ul>
         </li>
       </ul>
-    </div>
+    </article>
   )
 }
